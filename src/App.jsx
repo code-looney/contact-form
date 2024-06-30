@@ -49,20 +49,20 @@ function handleActiveSupportClick () {
           {/*first name section */}
           <div className="flex flex-col md:flex-row w-full justify-center gap-3">
             <div className="flex flex-col w-full gap-2">
-              <label className="text-darkGray" htmlFor="first-name">First Name <span>*</span></label>
+              <label className="text-darkGray" htmlFor="first-name">First Name <span className="text-mdGreen">*</span></label>
               <input id="first-name" className=" border-mdGray border focus:border-mdGreen focus:outline-none focus:bg-focuslightGreen rounded-md cursor-pointer" type="text" />
             </div>
             
             {/*last name section */}
             <div className="flex flex-col w-full gap-2">
-              <label className="text-darkGray" htmlFor="last-name">Last Name <span>*</span></label>
+              <label className="text-darkGray" htmlFor="last-name">Last Name <span className="text-mdGreen">*</span></label>
               <input className="border-mdGray border focus:border-mdGreen focus:outline-none focus:bg-focuslightGreen rounded-md cursor-pointer" type="text" />
             </div>
           </div>
 
           {/*email */}
           <div className="flex flex-col w-full gap-2">
-              <label className="text-darkGray" htmlFor="email">Email<span>*</span></label>
+              <label className="text-darkGray" htmlFor="email">Email Adress <span className="text-mdGreen">*</span></label>
               <input className="border-mdGray border focus:border-mdGreen focus:outline-none focus:bg-focuslightGreen rounded-md cursor-pointer" type="email" />
           </div>
           
@@ -72,7 +72,7 @@ function handleActiveSupportClick () {
               <div className="flex w-full gap-3 flex-col md:flex-row">
 
               <div className="flex flex-col w-full gap-2">
-              <label className="text-darkGray" htmlFor="query-type">Query Type <span>* </span></label>
+              <label className="text-darkGray" htmlFor="query-type">Query Type <span className="text-mdGreen">* </span></label>
               
               <div className={`flex w-full gap-3 flex-col md:flex-row`}>
                     <label onClick={handleActiveGeneralClick} 
@@ -106,7 +106,7 @@ function handleActiveSupportClick () {
 
           {/*message section */}
           <div className="flex flex-col w-full gap-2">
-              <label className="text-darkGray" htmlFor="message">Message<span>*</span></label>
+              <label className="text-darkGray" htmlFor="message">Message <span className="text-mdGreen">*</span></label>
               <textarea className="border border-mdGray w-full rounded-md resize-none focus:border-mdGreen focus:outline-none focus:bg-focuslightGreen cursor-pointer h-28 flex" type="text"></textarea>
           </div>
 
