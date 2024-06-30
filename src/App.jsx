@@ -113,7 +113,7 @@ function handleActiveSupportClick () {
           {/* checkbox section */}
           <div className="flex flex-row-reverse gap-4 justify-end w-full">
             <label className="text-darkGray"  htmlFor="agreement">I consent to being contacted by the team</label>
-            <input className="border-mdGray" type="checkbox" />
+            <input className="border-mdGray accent-mdGreen" type="checkbox" />
           </div>
 
           {/* submit section */}
