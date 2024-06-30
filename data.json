@@ -1,10 +1,12 @@
 [
     {   
         "name": "general enquiry",
-        "id": 1
+        "id": 0,
+        "color": "lightGreen"
     },
     {   
         "name": "support resquest",
-        "id": 2
+        "id": 1,
+        "color": "lightGreen"
     }
 ]
